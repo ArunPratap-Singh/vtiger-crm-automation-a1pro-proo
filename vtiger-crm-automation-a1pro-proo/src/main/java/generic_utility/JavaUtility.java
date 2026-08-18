@@ -1,6 +1,6 @@
 package generic_utility;
 
-import static org.junit.Assert.assertNotNull;
+
 
 public class JavaUtility {
 	public static int generateRandomNumber() {
