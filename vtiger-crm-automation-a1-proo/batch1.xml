@@ -1,0 +1,22 @@
+<suite name = "batch-suite">
+	
+	<test name = "thread1">
+	
+		<classes>
+			
+			<class name = "crm.learningmultipleexecution.OrgTest"/>
+				
+				<methods>
+					<include name = "createOrgTest"/>
+					<exclude name = "deleteOrgTest"/>
+				</methods>
+			
+			<class name = "crm.learningmultipleexecution.ContactTest"/>
+			
+			<class name = "crm.learningmultipleexecution.LeadsTest"/>
+		
+		</classes>
+	
+	</test>
+
+</suite>

@@ -1,0 +1,20 @@
+<suite name = "suite">
+
+	<test name = "test">
+	
+		<parameter name = "bro" value = "chrome" />
+		<parameter name = "url" value = "http://localhost:8888/" />
+		<parameter name = "un" value = "admin" />
+		<parameter name = "pwd" value = "manager" />
+		
+		<classes>
+		
+			<class name = "typesOfExecution.OrgTest" />
+			<class name = "typesOfExecution.ContactTest" />
+			<class name = "typesOfExecution.LeadTest" />
+		
+		</classes>	
+	
+	</test>
+
+</suite>

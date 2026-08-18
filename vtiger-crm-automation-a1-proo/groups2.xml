@@ -1,0 +1,29 @@
+<suite name = "suite">
+
+	<test name = "thread1">
+	
+		<groups>
+		
+			<run>
+		
+				<include name = "smoke"/>
+		
+			</run>
+		
+		</groups>
+	
+		<classes>
+		
+			<class name = "crm.learningmultipleexecution.OrgTest"/>
+			
+			<class name = "crm.learningmultipleexecution.ContactTest"/>
+			
+			<class name = "crm.learningmultipleexecution.LeadsTest"/>
+		
+		</classes>
+	
+	
+	</test>
+
+
+</suite>

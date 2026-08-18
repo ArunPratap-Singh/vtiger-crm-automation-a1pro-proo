@@ -1,0 +1,18 @@
+<suite name = "batch-suite">
+
+	<test name = "thread1">
+	
+		<classes>
+			<class name = "crm.learningmultipleexecution.OrgTest"/>
+				
+			
+			<class name = "crm.learningmultipleexecution.ContactTest"/>
+				
+			
+			<class name = "crm.learningmultipleexecution.LeadsTest"/>
+				
+		</classes>
+	
+	</test>
+
+</suite>
