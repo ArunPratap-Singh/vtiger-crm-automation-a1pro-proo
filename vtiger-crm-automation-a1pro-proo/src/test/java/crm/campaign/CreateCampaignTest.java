@@ -46,7 +46,7 @@ public class CreateCampaignTest extends BaseClass{
 		CampaignPage cp = new CampaignPage(driver);
 		cp.getCreateCampaignButton().click();
 
-//		fill the Create Campaign form
+//		fill the Create Campaign form 
 		cp.getCampaignName().sendKeys(campaignName);
 
 //		select campaign type

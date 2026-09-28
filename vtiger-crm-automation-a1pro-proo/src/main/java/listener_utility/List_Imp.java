@@ -27,7 +27,7 @@ public class List_Imp implements ISuiteListener, ITestListener {
 		long time = System.currentTimeMillis();
 		
 		ExtentSparkReporter spark = new ExtentSparkReporter("ad_reports/"+time+".html");
-		spark.config().setDocumentTitle("Sauce Demo Login");
+		spark.config().setDocumentTitle("vtiger");
 		spark.config().setReportName("Login Report");
 		spark.config().setTheme(Theme.DARK);
 		
